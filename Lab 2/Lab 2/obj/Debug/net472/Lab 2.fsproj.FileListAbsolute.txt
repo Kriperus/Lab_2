@@ -1,0 +1,26 @@
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\Lab 2.exe.config
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\Lab 2.exe
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\Lab 2.pdb
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\FSharp.Core.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\cs\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\de\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\es\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\fr\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\it\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\ja\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\ko\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\pl\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\pt-BR\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\ru\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\tr\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\zh-Hans\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\bin\Debug\net472\zh-Hant\FSharp.Core.resources.dll
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.fsproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.AssemblyInfo.fs
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.fsproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.sourcelink.json
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.fsproj.Up2Date
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.exe
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.pdb
+C:\Users\Admin\source\repos\MyPain\Lab 1\Lab 2\Lab 2\obj\Debug\net472\Lab 2.exe.config
