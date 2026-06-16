@@ -52,7 +52,4 @@ let main argv =
         List.zip numbers lastDigits
         |> List.iter (fun (num, digit) -> 
             printfn "  %.2f -> %d" num digit)
-    
-    printfn "\nНажмите любую клавишу для выхода..."
-    Console.ReadKey() |> ignore
     0
