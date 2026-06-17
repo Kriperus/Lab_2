@@ -26,7 +26,6 @@ let rec readNumbersTailRec acc =
 
 [<EntryPoint>]
 let main argv =
-    printfn "=== Программа получения последних цифр ==="
     printfn "Вводите вещественные числа по одному"
     printfn "Для завершения введите 'exit'\n"
     
@@ -45,11 +44,4 @@ let main argv =
             |> List.map getLastDigit
         
         printfn "Последние цифры: %A" lastDigits
-        
-        // Демонстрация преобразования
-        printfn "\nДетали преобразования:"
-        
-        List.zip numbers lastDigits
-        |> List.iter (fun (num, digit) -> 
-            printfn "  %.2f -> %d" num digit)
     0
