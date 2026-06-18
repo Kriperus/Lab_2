@@ -1,6 +1,5 @@
-﻿open System
+open System
 
-// ввод символов с клавиатуры
 let rec readCharsTailRec acc =
     printf "Введите символ (или 'exit' для завершения): "
     
@@ -20,6 +19,18 @@ let rec readCharsTailRec acc =
             printfn "Ошибка: введите ровно один символ!"
             readCharsTailRec acc
 
+let foldWithLogging chars =
+    let mutable step = 1
+    let result = 
+        chars 
+        |> List.fold (fun acc char ->
+            let newAcc = acc + string char
+            printfn "  Шаг %d: добавляем '%c' -> \"%s\"" step char newAcc
+            step <- step + 1
+            newAcc
+        ) ""
+    result
+
 [<EntryPoint>]
 let main argv =
     printfn "Вводите символы по одному"
@@ -33,20 +44,9 @@ let main argv =
     | _ ->
         printfn "\nИсходный список символов: %A" chars
         
-        // List.fold
-        let resultString = 
-            chars 
-            |> List.fold (fun acc char -> acc + string char) ""
-        
-        printfn "Результирующая строка: \"%s\"" resultString
-        
         printfn "\nПошаговое выполнение List.fold:"
+        let resultString = foldWithLogging chars
         
-        chars
-        |> List.fold (fun (step, acc) char ->
-            let newAcc = acc + string char
-            printfn "  Шаг %d: добавляем '%c' -> \"%s\"" step char newAcc
-            (step + 1, newAcc)
-        ) (1, "")
-        |> ignore
+        printfn "\nРезультирующая строка: \"%s\"" resultString
+    
     0
