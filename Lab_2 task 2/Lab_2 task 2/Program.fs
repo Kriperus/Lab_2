@@ -1,10 +1,11 @@
 open System
 
+// Рекурсивная функция для ввода символов с хвостовой рекурсией.
 let rec readCharsTailRec acc =
     printf "Введите символ (или 'exit' для завершения): "
-    
+
     match Console.ReadLine() with
-    | input when input.ToLower() = "exit" -> 
+    | input when input.ToLower() = "exit" ->
         List.rev acc
     | input ->
         match input.Length with
@@ -19,16 +20,18 @@ let rec readCharsTailRec acc =
             printfn "Ошибка: введите ровно один символ!"
             readCharsTailRec acc
 
+// Функция свёртки с логированием каждого шага.
 let foldWithLogging chars =
     let mutable step = 1
-    let result = 
-        chars 
+
+    let result =
+        chars
         |> List.fold (fun acc char ->
             let newAcc = acc + string char
             printfn "  Шаг %d: добавляем '%c' -> \"%s\"" step char newAcc
             step <- step + 1
-            newAcc
-        ) ""
+            newAcc) ""
+
     result
 
 [<EntryPoint>]
@@ -37,16 +40,16 @@ let main argv =
     printfn "Для завершения введите 'exit'\n"
 
     let chars = readCharsTailRec []
-    
+
     match chars with
-    | [] -> 
+    | [] ->
         printfn "\nСписок символов пуст!"
     | _ ->
         printfn "\nИсходный список символов: %A" chars
-        
+
         printfn "\nПошаговое выполнение List.fold:"
         let resultString = foldWithLogging chars
-        
+
         printfn "\nРезультирующая строка: \"%s\"" resultString
-    
+
     0
