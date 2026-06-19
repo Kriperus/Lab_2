@@ -22,7 +22,7 @@ let rec readCharsTailRec acc =
 
 // Функция свёртки с логированием каждого шага.
 let foldWithLogging chars =
-    let mutable step = 1
+    let step = 1
 
     let result =
         chars
